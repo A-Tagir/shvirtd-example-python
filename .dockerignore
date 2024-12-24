@@ -1,0 +1,8 @@
+.git
+haproxy
+nginx
+.gitignore
+*.md
+*.yaml
+*.pdf
+*.python
