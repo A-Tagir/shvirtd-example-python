@@ -13,6 +13,8 @@ services:
       - "5000:5000"
     env_file:
       - path: web.env
+    environment:
+    - DB_PASSWORD=$DB_PASSWORD
     depends_on:
       - db
 
